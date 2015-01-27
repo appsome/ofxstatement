@@ -25,7 +25,7 @@ class RunTests(TestCommand):
 version = "0.6.0.dev"
 
 with open("CHANGES.rst") as chlogf, open('README.rst') as rdmef:
-    long_description = chlogf.read() + "\n\n" + rdmef.read()
+    long_description = ""
 
 setup(name='ofxstatement',
       version=version,
